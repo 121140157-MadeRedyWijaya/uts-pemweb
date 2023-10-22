@@ -1,0 +1,151 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #E7C65B;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header img{
+    width: 70px;
+}
+
+.header h1 {
+    color: #B30F25;
+    font-family:'Trebuchet MS';
+    margin-left: 20px;
+}
+
+.data-body {
+    display: flex;
+    margin-top: 70px;
+    
+}
+
+.data-body li{
+    background-color: #E7C65B;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #179A9A;
+    position: fixed;
+    height: 730px;
+    overflow: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+aside li {
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+aside a {
+    font-family:'Trebuchet MS';
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 8px 16px;
+    border-radius: 3px;
+}
+aside h2 {
+    font-family:'Trebuchet MS';
+    text-align: center;
+    color: #FFD64E;
+}
+aside a:hover {
+    color: #FFD64E;
+    background-color: #B30F25;
+}
+
+div {
+    flex: 3;
+    padding: 20px;
+    margin-left: 200px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: dimgray;
+    background-color: #E7C65B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer p {
+    padding-left: 8px;
+    margin: 0;
+}
+
+.medsos {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.medsos a {
+    margin: 0 10px;
+}
+
+.medsos img {
+    width: 20px;
+    height: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dedede; 
+}
+tr:nth-child(odd) {
+    background-color: #ffffff; 
+}
+
+th {
+    text-align: center;
+    background-color: #B30F25;
+    color: white;
+}
+
+tr:hover{
+    background-color:#FFD64E;
+}
+
+.content{
+    font-family:'Trebuchet MS';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
